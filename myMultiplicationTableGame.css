@@ -1,11 +1,28 @@
 body {
   font-family: sans-serif;
+  width: 75%;
+  margin: 0 auto;
+
 }
+h1 {
+  font-variant: small-caps;
+  text-align: left;
+  color: yellow;
+  background-color: orange;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  /* border: 3px solid green; */
+  padding: 10px;
+  }
 
 table {
   border: 2px solid rgb(200,200,200);
   letter-spacing: 1px;
   font-size: 0.8rem;
+  margin: 0 auto;
 }
 
 td, th {
@@ -28,7 +45,13 @@ tr:nth-child(even) td {
 tr:nth-child(odd) td {
   background-color: rgb(245,245,245);
 }
-
-caption {
-  padding: 10px;
+#special{
+  background-color: powderBlue;
+  font-weight: bold;
+}
+.hidden{
+  color: rgb(250,250,250);
+}
+.nothidden {
+  color: black;
 }
