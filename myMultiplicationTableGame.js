@@ -1,6 +1,3 @@
-var userInput = 6
-var tdloop = [];
-
 
 var td = document.querySelectorAll("td");
 function gameBoard(){
